@@ -7,7 +7,8 @@ public :
 
   testMove();
   testMove(const testMove& t);
-  testMove(testMove&& t);~testMove();
+  testMove(testMove&& t);
+  ~testMove();
   void setMember(const int& a_int);
   void print();
   testMove& operator=(testMove& T);

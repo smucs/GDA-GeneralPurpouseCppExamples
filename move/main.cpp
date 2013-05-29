@@ -3,6 +3,7 @@
 #include "testMove.hpp"
 
 using namespace std;
+
 int main (void) { 
 
   testMove test;
@@ -15,5 +16,6 @@ int main (void) {
   test.print();
 
   test = secondTest;
+  
   return 0;
 }

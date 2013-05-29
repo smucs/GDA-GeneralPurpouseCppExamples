@@ -10,6 +10,7 @@ testMove::testMove(const testMove& T) {
 }
 
 testMove::testMove() : test( NULL) {
+  
   cout<<__PRETTY_FUNCTION__<<" testMove ctr "<<endl;
 }
 
@@ -47,8 +48,10 @@ void testMove::print() {
 
     cout<<__PRETTY_FUNCTION__<<" *test = "<<*test<<endl;
     cout<<__PRETTY_FUNCTION__<<" &test = "<<&test<<endl;
+    
   }
   else {
+    
     cout<<__PRETTY_FUNCTION__<<" test was equal to NULL" <<endl;
   } 
 }

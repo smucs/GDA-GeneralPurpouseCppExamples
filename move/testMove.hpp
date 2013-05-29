@@ -12,6 +12,7 @@ public :
   void setMember(const int& a_int);
   void print();
   testMove& operator=(testMove& T);
+  
 private :
   int* test;
 
